@@ -1,0 +1,22 @@
+.error-container {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(200px);
+  width: 200px;
+  background-color: var(--dark-purple);
+  padding: 5px;
+  color: white;
+  transition: opacity .4s, transform .4s;
+  border-radius: 5px;
+  border: 1px solid red;
+  position: fixed;
+  bottom: 20px;
+  right: 0px;
+  font-weight: 300;
+  font-size: .9rem;
+}
+.visible {
+  transform: translateX(0px);
+  opacity: 1;
+  pointer-events: all;
+}

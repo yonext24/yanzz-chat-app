@@ -1,0 +1,34 @@
+.chat-avatar {
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  margin-right: 20px;
+}
+.chat-user {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.chats-container {
+  height: 90%;
+  width: 80%;
+  max-width: 810px;
+  background-color: var(--main-purple);
+  display: flex;
+}
+.chats-list {
+  width: 30%;
+  margin-top: 10px;
+  overflow-y: scroll;
+  height: 96%;
+  align-self: center;
+}
+.chat-user button {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: var(--platinum);
+  padding: 15px 0;
+}
